@@ -1,0 +1,210 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon Mar 02 13:16:44 2020
+# Process ID: 7672
+# Log file: C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/planAhead_run_1/planAhead.log
+# Journal file: C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1767 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/pa.fromNetlist.tcl
+# create_project -name UART_RxTx -dir "C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/planAhead_run_1" -part xc3s500efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/Rs232_RxTx.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Rs232_RxTx.ucf" [current_fileset -constrset]
+Adding file 'C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/Rs232_RxTx.ucf' to fileset 'constrs_1'
+# add_files [list {Rs232_RxTx.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Rs232_RxTx.ngc ...
+WARNING:NetListWriters:298 - No output is written to Rs232_RxTx.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Rs232_RxTx.edif ...
+ngc2edif: Total memory usage is 79316 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/UART_RxTx.data/cache/Rs232_RxTx_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/UART_RxTx.data/cache/Rs232_RxTx_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/Rs232_RxTx.ucf]
+Finished Parsing UCF File [C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/Rs232_RxTx.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4886e0ec
+link_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 589.609 ; gain = 122.801
+startgroup
+set_property package_pin C9 [get_ports CLK]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+startgroup
+set_property package_pin F9 [get_ports FE]
+endgroup
+set_property iostandard LVTTL [get_ports [list FE]]
+set_property drive 8 [get_ports [list FE]]
+startgroup
+set_property package_pin E9 [get_ports OE]
+endgroup
+set_property iostandard LVTTL [get_ports [list OE]]
+set_property drive 8 [get_ports [list OE]]
+startgroup
+set_property package_pin D11 [get_ports PE]
+endgroup
+set_property iostandard LVTTL [get_ports [list PE]]
+set_property drive 8 [get_ports [list PE]]
+startgroup
+set_property package_pin K17 [get_ports RST]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports RXD]
+endgroup
+set_property iostandard LVTTL [get_ports [list RXD]]
+startgroup
+set_property package_pin M14 [get_ports TXD]
+endgroup
+set_property iostandard LVTTL [get_ports [list TXD]]
+set_property drive 8 [get_ports [list TXD]]
+set_property iostandard LVTTL [get_ports [list RST]]
+set_property pulltype PULLDOWN [get_ports [list RST]]
+save_constraints
+startgroup
+set_property package_pin N17 [get_ports RD]
+endgroup
+set_property iostandard LVTTL [get_ports [list RD]]
+set_property pulltype PULLUP [get_ports [list RD]]
+startgroup
+set_property package_pin H18 [get_ports WR]
+endgroup
+set_property iostandard LVTTL [get_ports [list WR]]
+set_property pulltype PULLUP [get_ports [list WR]]
+save_constraints
+startgroup
+set_property package_pin B4 [get_ports RDA]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list RDA]]
+set_property drive 8 [get_ports [list RDA]]
+set_property slew FAST [get_ports [list RDA]]
+set_property iostandard LVCMOS33 [get_ports [list RST]]
+undo
+INFO: [Common 17-17] undo 'set_property iostandard LVCMOS33 [get_ports [list RST]]'
+startgroup
+set_property package_pin A4 [get_ports TBE]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list TBE]]
+set_property drive 8 [get_ports [list TBE]]
+set_property slew FAST [get_ports [list TBE]]
+startgroup
+set_property package_pin D5 [get_ports {DBIN[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[7]}]]
+startgroup
+set_property package_pin C5 [get_ports {DBIN[6]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[6]}]]
+startgroup
+set_property package_pin A6 [get_ports {DBIN[5]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[5]}]]
+startgroup
+set_property package_pin B6 [get_ports {DBIN[4]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[4]}]]
+startgroup
+set_property package_pin E7 [get_ports {DBIN[3]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[3]}]]
+startgroup
+set_property package_pin F7 [get_ports {DBIN[2]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[2]}]]
+startgroup
+set_property package_pin D7 [get_ports {DBIN[1]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[1]}]]
+startgroup
+set_property package_pin C7 [get_ports {DBIN[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[0]}]]
+startgroup
+set_property package_pin F8 [get_ports {DBOUT[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[7]}]]
+set_property drive 8 [get_ports [list {DBOUT[7]}]]
+set_property slew FAST [get_ports [list {DBOUT[7]}]]
+startgroup
+set_property package_pin E8 [get_ports {DBOUT[6]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {DBOUT[5]}]
+endgroup
+startgroup
+set_property package_pin B13 [get_ports {DBOUT[4]}]
+endgroup
+startgroup
+set_property package_pin A14 [get_ports {DBOUT[3]}]
+endgroup
+startgroup
+set_property package_pin B14 [get_ports {DBOUT[2]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {DBOUT[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {DBOUT[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[5]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[4]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[3]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[2]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[1]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[0]}]]
+set_property drive 8 [get_ports [list {DBOUT[6]}]]
+set_property drive 8 [get_ports [list {DBOUT[4]}]]
+set_property drive 8 [get_ports [list {DBOUT[5]}]]
+set_property drive 8 [get_ports [list {DBOUT[3]}]]
+set_property drive 8 [get_ports [list {DBOUT[2]}]]
+set_property drive 8 [get_ports [list {DBOUT[1]}]]
+set_property drive 8 [get_ports [list {DBOUT[0]}]]
+set_property slew FAST [get_ports [list {DBOUT[6]}]]
+set_property slew FAST [get_ports [list {DBOUT[5]}]]
+set_property slew FAST [get_ports [list {DBOUT[4]}]]
+set_property slew FAST [get_ports [list {DBOUT[3]}]]
+set_property slew FAST [get_ports [list {DBOUT[2]}]]
+set_property slew FAST [get_ports [list {DBOUT[1]}]]
+set_property slew FAST [get_ports [list {DBOUT[0]}]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx\planAhead_pid7672.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Mar 02 14:04:18 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

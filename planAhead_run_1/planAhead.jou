@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon Mar 02 13:16:44 2020
+# Process ID: 7672
+# Log file: C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/planAhead_run_1/planAhead.log
+# Journal file: C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/VHDL_Repositorio/SERIAL/RS232_Digilent/UART_RxTx/pa.fromNetlist.tcl
+startgroup
+set_property package_pin C9 [get_ports CLK]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+startgroup
+set_property package_pin F9 [get_ports FE]
+endgroup
+set_property iostandard LVTTL [get_ports [list FE]]
+set_property drive 8 [get_ports [list FE]]
+startgroup
+set_property package_pin E9 [get_ports OE]
+endgroup
+set_property iostandard LVTTL [get_ports [list OE]]
+set_property drive 8 [get_ports [list OE]]
+startgroup
+set_property package_pin D11 [get_ports PE]
+endgroup
+set_property iostandard LVTTL [get_ports [list PE]]
+set_property drive 8 [get_ports [list PE]]
+startgroup
+set_property package_pin K17 [get_ports RST]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports RXD]
+endgroup
+set_property iostandard LVTTL [get_ports [list RXD]]
+startgroup
+set_property package_pin M14 [get_ports TXD]
+endgroup
+set_property iostandard LVTTL [get_ports [list TXD]]
+set_property drive 8 [get_ports [list TXD]]
+set_property iostandard LVTTL [get_ports [list RST]]
+set_property pulltype PULLDOWN [get_ports [list RST]]
+save_constraints
+startgroup
+set_property package_pin N17 [get_ports RD]
+endgroup
+set_property iostandard LVTTL [get_ports [list RD]]
+set_property pulltype PULLUP [get_ports [list RD]]
+startgroup
+set_property package_pin H18 [get_ports WR]
+endgroup
+set_property iostandard LVTTL [get_ports [list WR]]
+set_property pulltype PULLUP [get_ports [list WR]]
+save_constraints
+startgroup
+set_property package_pin B4 [get_ports RDA]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list RDA]]
+set_property drive 8 [get_ports [list RDA]]
+set_property slew FAST [get_ports [list RDA]]
+set_property iostandard LVCMOS33 [get_ports [list RST]]
+undo
+startgroup
+set_property package_pin A4 [get_ports TBE]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list TBE]]
+set_property drive 8 [get_ports [list TBE]]
+set_property slew FAST [get_ports [list TBE]]
+startgroup
+set_property package_pin D5 [get_ports {DBIN[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[7]}]]
+startgroup
+set_property package_pin C5 [get_ports {DBIN[6]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[6]}]]
+startgroup
+set_property package_pin A6 [get_ports {DBIN[5]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[5]}]]
+startgroup
+set_property package_pin B6 [get_ports {DBIN[4]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[4]}]]
+startgroup
+set_property package_pin E7 [get_ports {DBIN[3]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[3]}]]
+startgroup
+set_property package_pin F7 [get_ports {DBIN[2]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[2]}]]
+startgroup
+set_property package_pin D7 [get_ports {DBIN[1]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[1]}]]
+startgroup
+set_property package_pin C7 [get_ports {DBIN[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBIN[0]}]]
+startgroup
+set_property package_pin F8 [get_ports {DBOUT[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[7]}]]
+set_property drive 8 [get_ports [list {DBOUT[7]}]]
+set_property slew FAST [get_ports [list {DBOUT[7]}]]
+startgroup
+set_property package_pin E8 [get_ports {DBOUT[6]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {DBOUT[5]}]
+endgroup
+startgroup
+set_property package_pin B13 [get_ports {DBOUT[4]}]
+endgroup
+startgroup
+set_property package_pin A14 [get_ports {DBOUT[3]}]
+endgroup
+startgroup
+set_property package_pin B14 [get_ports {DBOUT[2]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {DBOUT[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {DBOUT[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[5]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[4]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[3]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[2]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[1]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DBOUT[0]}]]
+set_property drive 8 [get_ports [list {DBOUT[6]}]]
+set_property drive 8 [get_ports [list {DBOUT[4]}]]
+set_property drive 8 [get_ports [list {DBOUT[5]}]]
+set_property drive 8 [get_ports [list {DBOUT[3]}]]
+set_property drive 8 [get_ports [list {DBOUT[2]}]]
+set_property drive 8 [get_ports [list {DBOUT[1]}]]
+set_property drive 8 [get_ports [list {DBOUT[0]}]]
+set_property slew FAST [get_ports [list {DBOUT[6]}]]
+set_property slew FAST [get_ports [list {DBOUT[5]}]]
+set_property slew FAST [get_ports [list {DBOUT[4]}]]
+set_property slew FAST [get_ports [list {DBOUT[3]}]]
+set_property slew FAST [get_ports [list {DBOUT[2]}]]
+set_property slew FAST [get_ports [list {DBOUT[1]}]]
+set_property slew FAST [get_ports [list {DBOUT[0]}]]
+save_constraints
